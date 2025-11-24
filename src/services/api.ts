@@ -8,7 +8,7 @@ import { refreshTokens } from "./auth"
 // import { url } from "inspector"
 
 const api = axios.create({
-  baseURL: "http://localhost:5001/api/v1"
+  baseURL: "https://blog-be-keyp.vercel.app/api/v1"
 })
 
 const PUBLIC_ENDPOINTS = ["/auth/login", "/auth/register"]
